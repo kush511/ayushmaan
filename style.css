@@ -1,0 +1,192 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f6f9;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+header {
+    background-color: #004990;
+    color: white;
+    padding: 15px 0;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+header .logo {
+    height: 50px;
+    margin-right: 15px;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(rgba(0, 73, 144, 0.9), rgba(0, 73, 144, 0.9)), url('ayush-hero-bg.jpg') no-repeat center center;
+    background-size: cover;
+    padding: 60px 0;
+    text-align: center;
+    color: white;
+}
+
+.hero-content h2 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 30px;
+}
+
+.cta-btn {
+    background-color: #ffcc00;
+    color: #004990;
+    padding: 15px 30px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.cta-btn:hover {
+    background-color: #ffaa00;
+}
+
+/* Dashboard Section */
+.dashboard {
+    background-color: #fff;
+    padding: 40px 20px;
+    margin: 40px 0;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.dashboard h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.dashboard-cards {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.card {
+    background-color: #f8f8f8;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    text-align: center;
+}
+
+.card h4 {
+    margin-bottom: 10px;
+}
+
+.btn {
+    background-color: #004990;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background-color: #003366;
+}
+
+/* Registration Form Section */
+.registration {
+    background-color: #fff;
+    padding: 40px 20px;
+    border-radius: 10px;
+    margin: 40px 0;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.registration h3 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #004990;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #003366;
+}
+
+/* Footer */
+footer {
+    background-color: #004990;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+footer p {
+    font-size: 0.9rem;
+}

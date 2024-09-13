@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>AYUSH Startup Registration Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-left">
+                <img src="gov-logo.png" alt="Government Logo" class="logo">
+                <h1>AYUSH Startup Portal</h1>
+            </div>
+            <nav class="header-right">
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Dashboard</a>
+                <a href="#">Support</a>
+                <a href="#">Contact Us</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h2>Empowering AYUSH Startups for a Healthier Future</h2>
+            <p>Register your AYUSH startup today and join the movement towards innovative healthcare solutions.</p>
+            <a href="#register" class="cta-btn">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Main Section -->
+    <main>
+        <div class="container">
+            <!-- Dashboard -->
+            <section id="dashboard" class="dashboard">
+                <h3>Startup Dashboard</h3>
+                <p>Manage your startup information, track application status, and receive notifications.</p>
+                <div class="dashboard-cards">
+                    <div class="card">
+                        <h4>Application Status</h4>
+                        <p>Your application is under review.</p>
+                        <a href="#" class="btn">View Details</a>
+                    </div>
+                    <div class="card">
+                        <h4>Documents Upload</h4>
+                        <p>Upload pending documents to complete your registration.</p>
+                        <a href="#" class="btn">Upload Now</a>
+                    </div>
+                    <div class="card">
+                        <h4>Notifications</h4>
+                        <p>You have 2 new messages from the regulatory team.</p>
+                        <a href="#" class="btn">Check Now</a>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Registration Form -->
+            <section id="register" class="registration">
+                <h3>Register Your AYUSH Startup</h3>
+                <form action="#" method="POST">
+                    <div class="form-group">
+                        <label for="startupName">Startup Name</label>
+                        <input type="text" id="startupName" name="startupName" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="founderName">Founder Name</label>
+                        <input type="text" id="founderName" name="founderName" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="sector">AYUSH Sector</label>
+                        <select id="sector" name="sector">
+                            <option value="ayurveda">Ayurveda</option>
+                            <option value="yoga">Yoga</option>
+                            <option value="unani">Unani</option>
+                            <option value="siddha">Siddha</option>
+                            <option value="homeopathy">Homeopathy</option>
+                        </select>
+                    </div>
+
+                    <button type="submit">Register</button>
+                </form>
+            </section>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ministry of AYUSH. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
